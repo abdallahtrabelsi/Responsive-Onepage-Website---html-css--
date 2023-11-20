@@ -1,7 +1,12 @@
+/* *****************navbar**************** */
 .navbar-brand img {
     max-height: 40px;
 }
 
+
+
+
+/* *********Header************ */
 header .row {
     min-height: 70vh;
     background-image: url(./img/mountains.jpg);
@@ -19,7 +24,7 @@ header .formReservation {
     min-height: 70vh;
     display: flex;
     align-items: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Releway', sans-serif;
 
 }
 
@@ -47,11 +52,11 @@ header .slogan {
 
 
 
-
+/* ****************Presentation************** */
 #presentation .media span {
-    color: red;
+    color: #d7b841;
     font-size: 3rem;
-    background-color: brown;
+    /* background-color: brown; */
     width: 4rem;
     text-align: center;
 
@@ -78,24 +83,26 @@ header .slogan {
 
 }
 
+
+/* *********************Avis*************** */
 .avisClient {
     min-height: calc(100vh - 50px);
-    background-color: chocolate;
+    background-color: #d3dae4;
 
 }
 
 .avisClient span {
     font-size: 5rem;
-    color: beige;
+    color: #17a2b8;
 
 }
 
 .avisClient h5 {
     font-size: 2rem;
-    color: blue;
+    color: #888;
 }
 
-
+/* **************Contact************** */
 #contact {
     background-image: url(./img/1.jpg);
     background-repeat: no-repeat;
@@ -112,4 +119,24 @@ header .slogan {
     background-color: rgba(255, 255, 255, .7);
     padding: 2rem 1rem;
 
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, .8);
+    color: #999;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+footer a {
+    color: #999;
+    font-size: 2rem;
+    transition: all .2s ease-in-out;
+
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
 }
